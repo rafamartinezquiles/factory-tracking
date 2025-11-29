@@ -3,7 +3,7 @@ from datetime import date
 
 import streamlit as st
 
-from . import settings
+import settings
 
 
 def configure_page() -> None:
