@@ -5,12 +5,12 @@ import streamlit as st
 
 from datetime import datetime
 
-from . import layout
-from . import map_view
-from . import stac_search
-from . import timelapse
-from . import analytics
-from . import settings
+import layout
+import map_view
+import stac_search
+import timelapse
+import analytics
+import settings
 
 
 def main() -> None:
